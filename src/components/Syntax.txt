@@ -1,0 +1,27 @@
+useEffect with Dependency
+
+useEffect(()=>{
+
+},[state,props])
+
+
+Logical Operator
+ && = if both condition true
+ || = anyone condition true
+ !value = making value opposite boolean,if initially true means false or false means true
+
+Ternary Operator
+Students.length > 0 ? (Truepart) : (Falsepart)
+
+Slice Method
+Students.slice(0,5)
+Here, 0 is starting point, 5 is ending point (Students.slice(start,end))
+
+Map Function
+With Curly Braces & return(if we use curly braces we need to use return)
+if we use curly braces & not use return it cannot show error it shows the output as blank
+Students.Map((student)=>{
+    return <p>{student.name}</p>
+})
+without Curly Braces & return
+Students.map((Student)=><p>{student.name}</p>)
